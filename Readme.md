@@ -4,6 +4,8 @@
 ### - Use DBT to run and test sql and yml files
 ### - Deploy the DBT docs and dashboard to vercel
 
+### DBT-Snowflake Dashbard Link: https://dbt-snowflake-integration.vercel.app/
+
 ## Architecture:
 ![architecture.png](architecture.png)
 
