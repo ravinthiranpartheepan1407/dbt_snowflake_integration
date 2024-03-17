@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_telemetry_features
+    description: "Telemetry Features Staging"
+    columns:
+      - name: DATETIME
+        description: "Primary Key"
+
+  - name: stg_telemetry
+    description: "Avg value of telemetry data"
+    columns:
+      - name: MACHINEID
+        description: "Primary Key"
+
+  - name: stg_error_data
+    description: "Data from error table"
+    columns:
+      - name: DATETIME
+        description: "Primary Key"
+
+  - name: stg_maintenance_data
+    description: "Data from maintenance table"
+    columns:
+      - name: DATETIME
+        description: "Primary Key"
+
+  - name: stg_failure_data
+    description: "Data from failure data"
+    columns:
+      - name: DATETIME
+        description: "Primary Key"

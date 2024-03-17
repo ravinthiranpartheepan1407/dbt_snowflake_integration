@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: DetailedInsights
+    description: "Avg view of all table"
+    columns:
+      - name: DATETIME
+        description: "Primary Key"
+        tests: #Unqiue, Not Null, Accepted Values and Relationships
+          -  not_null
